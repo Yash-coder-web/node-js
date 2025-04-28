@@ -74,5 +74,6 @@ app.get("/rest/getAllUsers", (req, res) => {
    });
 
 app.listen(PORT, () => {
+  console.log(PORT);  
   console.log("Server running on", `http://${PORT}/graphql`);
 });
